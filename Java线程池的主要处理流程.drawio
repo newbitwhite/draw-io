@@ -1,9 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2023-06-03T07:15:29.424Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.2" etag="LIWOjOmWsdAHpX6kt9LJ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-03T08:09:54.013Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="O6W3NYDWdMUF2KxKESHV" version="21.3.2" type="github">
   <diagram name="第 1 页" id="uVx33qXNJGhNhD8ahdZS">
-    <mxGraphModel>
+    <mxGraphModel dx="1781" dy="615" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dh9Q3btgPDwu0xQArahh-26" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=80;dy=130;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="70" width="830" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBorderColor=none;" edge="1" parent="1" source="dh9Q3btgPDwu0xQArahh-9" target="dh9Q3btgPDwu0xQArahh-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="160" as="targetPoint" />
+            <mxPoint x="152.5" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" edge="1" parent="1" source="dh9Q3btgPDwu0xQArahh-4" target="dh9Q3btgPDwu0xQArahh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-10" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;" vertex="1" connectable="0" parent="dh9Q3btgPDwu0xQArahh-8">
+          <mxGeometry x="-0.15" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-12" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" edge="1" parent="1" source="dh9Q3btgPDwu0xQArahh-4" target="dh9Q3btgPDwu0xQArahh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-4" value="核心线程池是否已满&lt;br&gt;corePoolSize" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-7" value="创建新线程&lt;br&gt;执行任务" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="92.5" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-9" value="提交任务" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="92.5" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" edge="1" parent="1" source="dh9Q3btgPDwu0xQArahh-11" target="dh9Q3btgPDwu0xQArahh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-15" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;" vertex="1" connectable="0" parent="dh9Q3btgPDwu0xQArahh-14">
+          <mxGeometry x="-0.35" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-17" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" edge="1" parent="1" source="dh9Q3btgPDwu0xQArahh-11" target="dh9Q3btgPDwu0xQArahh-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-11" value="队列是否已满&lt;br&gt;workQueue" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="267" y="250" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-13" value="将任务存储在队列中" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="279.5" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" edge="1" parent="1" source="dh9Q3btgPDwu0xQArahh-16" target="dh9Q3btgPDwu0xQArahh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-23" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;" vertex="1" connectable="0" parent="dh9Q3btgPDwu0xQArahh-19">
+          <mxGeometry x="-0.3" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" edge="1" parent="1" source="dh9Q3btgPDwu0xQArahh-16" target="dh9Q3btgPDwu0xQArahh-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-22" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;" vertex="1" connectable="0" parent="dh9Q3btgPDwu0xQArahh-21">
+          <mxGeometry x="-0.1568" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-16" value="线程池是否已满&lt;br&gt;maximumPool" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="467" y="250" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-18" value="创建新线程&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;执行任务" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="479.5" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-20" value="按照策略&lt;br&gt;处理无法执行的任务&lt;br&gt;RejectedExecutionHandler" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="662" y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-24" value="使用者" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dh9Q3btgPDwu0xQArahh-25" value="线程池" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
